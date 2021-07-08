@@ -8,7 +8,7 @@ const expElement = document.getElementById("exp");
 const titleElement = document.getElementById("title");
 const subtitleElement = document.getElementById("subtitle");
 const caseTextElement = document.getElementById("caseText");
-const imageElement = document.getElementById("image");
+// const imageElement = document.getElementById("image");
 const quoteElement = document.getElementById("quote");
 const questionElement = document.getElementById("question");
 const option1TitleElement = document.getElementById("option1Title");
@@ -474,9 +474,8 @@ function nextLesson () {
     if (round < 6) {
         loadRound(round)
     } else {
+        gameAreaElement.style.display = "none";
         endGameElement.style.display = "block";
-        // gameAreaElement.style.display = "none";
-        
     }
 
 }

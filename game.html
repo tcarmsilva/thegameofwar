@@ -2,169 +2,185 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
     <link rel="stylesheet" href="bootstrap.min.css" />
 
     <link rel="stylesheet" href="style.css" />
 
-  <title>Projeto Ironhack 1 - The Game of War</title>
+    <title>Projeto Ironhack 1 - The Game of War</title>
 </head>
 
 <body>
-    
-<!-- Game Area -->
-    <div id="gameArea">    
+
+    <!-- Game Area -->
+    <div id="gameArea">
         <div class="card mb-3">
-            <h3 class="card-header px-5 d-flex justify-content-between"><span id="round">Round #</span><span id="exp" class = "text-success">Exp: </span></h3>
-            
+            <h3 class="card-header px-5 d-flex justify-content-between"><span id="round">Round #</span><span id="exp"
+                    class="text-success">Exp: </span></h3>
+
             <!-- ProgressBar -->
             <div class="card-footer text-muted">
                 <div class="progress">
-                    <div id="progressBar" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div id="progressBar" class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                        style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
-            
+
             <div class="card-body px-5">
-            <h5 id="title" class="card-title">Lição sobre ...</h5>
-            <h6 id="subtitle" class="card-subtitle text-muted">Aprenda ...</h6>
+                <h5 id="title" class="card-title">Lição sobre ...</h5>
+                <h6 id="subtitle" class="card-subtitle text-muted">Aprenda ...</h6>
             </div>
-            <div >
+            <div>
                 <img src="./case-images/art.jpg" class="d-block user-select-none" width="100%" height="400">
             </div>
-        
+
             <div class="card-body px-5">
-                
+
                 <!-- Quote -->
 
                 <div class="mt-2 mb-3">
                     <a href="#" class="list-group-item flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1 text-center" id="quote">“Quote” Sun Tzu</h5>
-                    </div>
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1 text-center" id="quote">“Quote” Sun Tzu</h5>
+                        </div>
                     </a>
                 </div>
-                
-    
+
+
                 <div id="caseText" class="card-text">
                     <p>Paragrafoi 1.</p>
                     <p>Paragrafoi 2.</p>
                 </div>
-                    
+
             </div>
             <ul class="list-group list-group-flush">
-                    <li id="question" class="list-group-item px-5 h4 text-center">Pergunta</li>
-                    <li class="list-group-item px-5">
-                <div class="row justify-content-lg-between justify-content-center">   
-                    <div class="card text-white bg-dark mb-3 mt-2 mr-2 ml-2 answer" style="max-width: 18rem;" id="card1" data-toggle="modal" data-target="#exampleModalWrong" data-backdrop="static" data-keyboard="false">
-                        <div class="card-header">Opção 1</div>
-                        <div class="card-body">
-                        <h5 id="option1Title" class="card-title">Titulo do card 1</h5>
-                        <p id="option1Text" class="card-text">Texto do card 1.</p>
+                <li id="question" class="list-group-item px-5 h4 text-center">Pergunta</li>
+                <li class="list-group-item px-5">
+                    <div class="row justify-content-lg-between justify-content-center">
+                        <div class="card text-white bg-dark mb-3 mt-2 mr-2 ml-2 answer" style="max-width: 18rem;"
+                            id="card1" data-toggle="modal" data-target="#exampleModalWrong" data-backdrop="static"
+                            data-keyboard="false">
+                            <div class="card-header">Opção 1</div>
+                            <div class="card-body">
+                                <h5 id="option1Title" class="card-title">Titulo do card 1</h5>
+                                <p id="option1Text" class="card-text">Texto do card 1.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card text-white bg-dark mb-3 mt-2 mr-2 ml-2 answer" style="max-width: 18rem;" id="card2" data-toggle="modal" data-target="#exampleModalWrong" data-backdrop="static" data-keyboard="false">
-                        <div class="card-header">Opção 2</div>
-                        <div class="card-body">
-                        <h5 id="option2Title" class="card-title">Titulo do card 2</h5>
-                        <p id="option2Text" class="card-text">Texto do card 2.</p>
+                        <div class="card text-white bg-dark mb-3 mt-2 mr-2 ml-2 answer" style="max-width: 18rem;"
+                            id="card2" data-toggle="modal" data-target="#exampleModalWrong" data-backdrop="static"
+                            data-keyboard="false">
+                            <div class="card-header">Opção 2</div>
+                            <div class="card-body">
+                                <h5 id="option2Title" class="card-title">Titulo do card 2</h5>
+                                <p id="option2Text" class="card-text">Texto do card 2.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card text-white bg-dark mb-3 mt-2 mr-2 ml-2 answer" style="max-width: 18rem;" id="card3" data-toggle="modal" data-target="#exampleModalWrong" data-backdrop="static" data-keyboard="false">
-                        <div class="card-header">Opção 3</div>
-                        <div class="card-body">
-                        <h5 id="option3Title" class="card-title">Titulo do card 3</h5>
-                        <p id="option3Text" class="card-text">Texto do card 3.</p>
+                        <div class="card text-white bg-dark mb-3 mt-2 mr-2 ml-2 answer" style="max-width: 18rem;"
+                            id="card3" data-toggle="modal" data-target="#exampleModalWrong" data-backdrop="static"
+                            data-keyboard="false">
+                            <div class="card-header">Opção 3</div>
+                            <div class="card-body">
+                                <h5 id="option3Title" class="card-title">Titulo do card 3</h5>
+                                <p id="option3Text" class="card-text">Texto do card 3.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card text-white bg-dark mb-3 mt-2 mr-2 ml-2 answer" style="max-width: 18rem;" id="card4" data-toggle="modal" data-target="#exampleModalWrong" data-backdrop="static" data-keyboard="false">
-                        <div class="card-header">Opção 4</div>
-                        <div class="card-body">
-                        <h5 id="option4Title" class="card-title">Titulo do card 4</h5>
-                        <p id="option4Text" class="card-text">Texto do card 4.</p>
+                        <div class="card text-white bg-dark mb-3 mt-2 mr-2 ml-2 answer" style="max-width: 18rem;"
+                            id="card4" data-toggle="modal" data-target="#exampleModalWrong" data-backdrop="static"
+                            data-keyboard="false">
+                            <div class="card-header">Opção 4</div>
+                            <div class="card-body">
+                                <h5 id="option4Title" class="card-title">Titulo do card 4</h5>
+                                <p id="option4Text" class="card-text">Texto do card 4.</p>
+                            </div>
                         </div>
-                    </div>
 
-                </div>
-            </li>
+                    </div>
+                </li>
             </ul>
             <div class="card-body text-center">
-            <a id="previousLesson" href="#" class="card-link">Previous Lesson</a>
-            <a id="nextLesson" href="#" class="card-link">Next Lesson</a>
-
+                <a id="previousLesson" href="#" class="card-link">Previous Lesson</a>
+                <a id="nextLesson" href="#" class="card-link">Next Lesson</a>
             </div>
+    
 
 
 
 
-
-        <!-- Button trigger para usar nos cards de respostas
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalRight">
+            <!-- Button trigger para usar nos cards de respostas
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalRight">
             Launch demo modal
-        </button> -->
-        
-        <!-- Modal resposta correta-->
-        <div class="modal fade" id="exampleModalRight" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title text-success" id="exampleModalLabel">Resposta correta!</h5>
-                </div>
-                <div class="modal-body" id="modalRightBody">
-                    <p>Blablabla texto da resposta correta</p>
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal" id="nextLessonRight">Próxima Lição</button>
+            </button> -->
+
+            <!-- Modal resposta correta-->
+            <div class="modal fade" id="exampleModalRight" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-success" id="exampleModalLabel">Resposta correta!</h5>
+                        </div>
+                        <div class="modal-body" id="modalRightBody">
+                            <p>Blablabla texto da resposta correta</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"
+                                id="nextLessonRight">Próxima Lição</button>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
+            <!-- Modal resposta errada-->
+            <div class="modal fade" id="exampleModalWrong" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-danger" id="exampleModalLabel">Resposta errada!</h5>
+                        </div>
+                        <div class="modal-body" id="modalWrongBody">
+                            <p>Blablabla texto da resposta errada</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"
+                                id="nextLessonWrong">Próxima Lição</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-        <!-- Modal resposta errada-->
-        <div class="modal fade" id="exampleModalWrong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title text-danger" id="exampleModalLabel">Resposta errada!</h5>
-                </div>
-                <div class="modal-body" id="modalWrongBody">
-                    <p>Blablabla texto da resposta errada</p>
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal" id="nextLessonWrong">Próxima Lição</button>
-                </div>
-            </div>
-            </div>
-        </div>
-
     </div>
 
     <!-- End Game -->
     <div id="endGame">
         <div class="card mb-3">
-        
+
             <h1 class="card-header px-5 text-center"><span>Fim de Jogo!</span></h1>
             <div>
-                <img src="./case-images/art.jpg"  class="d-block user-select-none" width="100%" height="400">
+                <img src="./case-images/art.jpg" class="d-block user-select-none" width="100%" height="400">
             </div>
-    
+
             <h3 class="card-header px-5 text-center">Sua pontuação final foi: <span id="expFinal">0</span></h3>
-            
+
             <div class="card-body px-5">
-              <h5 class="card-title" id="tituloFinal">Obrigada por jogar The Game of War!</h5>
-              <h6 class="card-subtitle text-muted" id="subtituloFinal">Espero que você tenha apreciado esses milenares conhecimentos sobre estratégia, guerra e liderança :)</h6>
+                <h5 class="card-title" id="tituloFinal">Obrigada por jogar The Game of War!</h5>
+                <h6 class="card-subtitle text-muted" id="subtituloFinal">Espero que você tenha apreciado esses milenares
+                    conhecimentos sobre estratégia, guerra e liderança :)</h6>
             </div>
-    
-    
+
+
             <div class="card-body px-5">
-              <p class="card-text" id="bodyFinal">Este jogo foi feito com base em um artigo que eu escrevi usando os conceitos da A Arte da Guerra para analisar como o Magazine Luiza e iFood "venceram" o Covid-19. Este artigo será publicado no livro anual do IFL-SP em agosto.</p>
+                <p class="card-text" id="bodyFinal">Este jogo foi feito com base em um artigo que eu escrevi usando os
+                    conceitos da A Arte da Guerra para analisar como o Magazine Luiza e iFood "venceram" o Covid-19.
+                    Este artigo será publicado no livro anual do IFL-SP em agosto.</p>
             </div>
         </div>
     </div>
@@ -172,25 +188,25 @@
 
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold" href="https://github.com/tcarmsilva/">tcarmsilva @ Github</a>
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://github.com/tcarmsilva/">tcarmsilva @ Github</a>
     </div>
     <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+    </footer>
+    <!-- Footer -->
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-  </script>
-  <script src="logic.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <script src="logic.js"></script>
 </body>
 
 </html>
