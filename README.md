@@ -19,4 +19,4 @@ I created a Quiz Game based on the book The Art of War from Sun Tzu and applied 
 https://tcarmsilva.github.io/thegameofwar/
 
 
-**Thank you for checking out!** :heart:
+**Thank you for playing!** :heart:
