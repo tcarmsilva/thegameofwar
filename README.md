@@ -1,4 +1,4 @@
-# Projeto 1 - Ironhack Web Development Bootcamp
+# Projeto 1
 
 ## Introduction
 
